@@ -1,5 +1,5 @@
 <template>
-  <h1>Website Coming Soon</h1>
+  <h1></h1>
 </template>
 
 <script>
