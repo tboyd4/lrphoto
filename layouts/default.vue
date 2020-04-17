@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app class="white">
     <head-bar></head-bar>
     <nuxt></nuxt>
     <foot-bar></foot-bar>
@@ -16,3 +16,4 @@ export default {
   }
 }
 </script>
+
