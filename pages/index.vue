@@ -4,6 +4,7 @@
     <Catcher></Catcher>
     <div class="py-12"></div>
     <recent-work></recent-work>
+    <div class="py-12"></div>
   </div>
 </template>
 
