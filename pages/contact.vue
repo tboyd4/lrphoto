@@ -1,15 +1,16 @@
 <template>
-    <div>
-        <h1>Contact</h1>
-    </div>
+    <contact-form></contact-form>
 </template>
 
 <script>
+import ContactForm from "../components/ContactComps/ContactForm.vue"
     export default {
-        
+        components: {
+            ContactForm
+        }
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 
 </style>
