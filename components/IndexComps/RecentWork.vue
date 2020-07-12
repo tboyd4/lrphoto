@@ -9,10 +9,10 @@
           <v-card>
             <v-container fluid>
               <v-row>
-                <v-col v-for="n in 6" :key="n" class="d-flex child-flex" cols="4">
+                <v-col v-for="pic in recents" :key="pic" class="d-flex child-flex" cols="4">
                   <v-card flat tile class="d-flex">
                     <v-img
-                      :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
+                      :src="pic"
                       :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
                       aspect-ratio="1"
                       class="grey lighten-2"
@@ -35,7 +35,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      recents: [
+        "/recent_work/Devon.jpg",
+        "/recent_work/fame.jpg",
+        "/recent_work/Makayla1.jpg",
+        "/recent_work/Patrick1.jpg",
+        "/recent_work/stickflip.jpg",
+        "/recent_work/Vivian2.jpg"
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -2,7 +2,7 @@
     <v-container>
         <v-row>
             <v-col class="col-md-5">
-                <v-img src="/self_pic.jpg"></v-img>
+                <v-img src="/full_gallery/poster2.jpg"></v-img>
             </v-col>
             <v-spacer></v-spacer>
             <v-col class="col-md-6">
