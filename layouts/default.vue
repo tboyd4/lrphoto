@@ -1,7 +1,9 @@
 <template>
   <v-app class="white">
     <head-bar></head-bar>
-    <nuxt></nuxt>
+    <v-content>
+      <nuxt></nuxt>
+    </v-content>
     <foot-bar></foot-bar>
   </v-app>
 </template>
@@ -16,4 +18,3 @@ export default {
   }
 }
 </script>
-
