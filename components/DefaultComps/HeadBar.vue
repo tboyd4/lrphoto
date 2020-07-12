@@ -14,11 +14,15 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn depressed class="mx-2 my-1 white">
-        <nuxt-link class="links black--text headline" to="/about">About</nuxt-link>
+      <v-btn depressed class="mx-1 my-1 white">
+        <nuxt-link class="links black--text headline" to="/">Home</nuxt-link>
       </v-btn>
 
-      <v-btn depressed class="mx-2 my-1 white">
+      <v-btn depressed class="mx-1 my-1 white">
+        <nuxt-link class="links black--text headline" to="/gallery">Gallery</nuxt-link>
+      </v-btn>
+
+      <v-btn depressed class="mx-1 my-1 white">
         <nuxt-link class="links black--text headline" to="/contact">Contact</nuxt-link>
       </v-btn>
     </v-app-bar>
