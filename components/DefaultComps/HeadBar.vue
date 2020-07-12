@@ -19,10 +19,6 @@
       </v-btn>
 
       <v-btn depressed class="mx-1 my-1 white">
-        <nuxt-link class="links black--text headline" to="/about">About</nuxt-link>
-      </v-btn>
-
-      <v-btn depressed class="mx-1 my-1 white">
         <nuxt-link class="links black--text headline" to="/gallery">Gallery</nuxt-link>
       </v-btn>
 
